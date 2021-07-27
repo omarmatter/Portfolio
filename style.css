@@ -34,7 +34,7 @@ nav ul li a:hover{
     color: black;
 }
  header .card{
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/my.jpg') center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('images/my.jpg') center;
     background-size: cover;
     height: 500px;
 }
@@ -112,12 +112,12 @@ nav ul li a:hover{
         border-radius: 10px;
         margin-top: 50px;
         margin-bottom: 50px;
-        box-shadow: 0px 4px 8px 0px #283593
+        box-shadow: 0px 4px 8px 0px #1aa059b0
     }
     
     .card-0 {
-        color: #fff;
-        background-color: #536DFE;
+        color: rgb(0, 0, 0);
+        background-color: #1ff583e7;
         position: relative;
         margin-left: 70px;
         border-radius: 10px;
@@ -133,7 +133,7 @@ nav ul li a:hover{
     
     .profile {
         color: #000;
-        background-color: #FFD54F;
+        background-color: #4ad68b;
         position: absolute;
         left: -70px;
         top: 17%;
@@ -151,7 +151,8 @@ nav ul li a:hover{
     
     .open-quotes {
         margin-left: 130px;
-        margin-top: 100px
+        margin-top: 100px;
+
     }
     
     .content {
