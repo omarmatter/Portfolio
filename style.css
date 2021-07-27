@@ -1,0 +1,231 @@
+nav ul li{
+    margin-right: 40px;
+}
+nav ul li a:hover{
+    color: #0FBF61 !important;
+}
+
+.wlcome{
+    background-color: #0fbf6131;
+    color: #0FBF61;
+    padding: 5px 10px;
+    margin-top: 100px;
+    
+}
+.name{
+    margin-top: 10px;
+}
+.about{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.hire_me{
+    background-color: #0FBF61;
+    color: white;
+    transition: all .5s;
+    border: none;
+    padding: 10px 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.hire_me:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+ header .card{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/my.jpg') center;
+    background-size: cover;
+    height: 500px;
+}
+.socila{
+    margin-top: 30px;
+}
+.socila li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    padding: 5px 10px;
+    transition: all .2s;
+}
+.socila li a{
+    color: #000;
+}
+.socila li:hover{
+    background-color: #0FBF61;
+    border-radius: 5px;
+}
+.br{
+    height: .5px;
+    background-color: #0fbf6173;
+    margin: 20px;
+}
+.experince{
+    margin-top: 40px;
+}
+.experince label{
+    background-color: #0fbf6131;
+    color: #0FBF61;  
+    padding: 5px 10px;
+}
+.experince h6{
+    margin-top: 20px;
+}
+.progress-bar{
+    background-color: #0FBF61;
+}
+.progress_skill{
+    margin-top: 50px;
+}
+.progress_skill .col-4{
+ margin-bottom: 40px;
+}
+.progress_skill h5{
+    margin: 20px;
+    color: rgb(95, 95, 93);
+}
+.work{
+    margin-top: 60px;
+}
+.work label{
+    background-color: #0fbf6131;
+    color: #0FBF61;  
+    padding: 5px 10px; 
+    margin-bottom: 50px;
+}
+.work img{
+    height: 641px
+}
+.card_work{
+    box-shadow: 0px 0px 0px 0 #0FBF61, 0px 0 5px 0 #0FBF61;
+    margin-top: 20px;
+ }
+ 
+    .testimonial label{
+        background-color: #0fbf6131;
+    color: #0FBF61;  
+    padding: 5px 10px; 
+    margin: 150px 0 20px;
+    }
+    .card-main {
+        padding: 50px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0px 4px 8px 0px #283593
+    }
+    
+    .card-0 {
+        color: #fff;
+        background-color: #536DFE;
+        position: relative;
+        margin-left: 70px;
+        border-radius: 10px;
+        min-height: 312px
+    }
+    
+    .carousel-indicators li {
+        cursor: pointer;
+        border-radius: 50% !important;
+        width: 10px !important;
+        height: 10px !important;
+    }
+    
+    .profile {
+        color: #000;
+        background-color: #FFD54F;
+        position: absolute;
+        left: -70px;
+        top: 17%;
+        border-radius: 8px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px
+    }
+    
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px
+    }
+    
+    .open-quotes {
+        margin-left: 130px;
+        margin-top: 100px
+    }
+    
+    .content {
+        margin-left: 150px;
+        margin-right: 80px
+    }
+    
+    .close-quotes {
+        margin-bottom: 100px;
+        margin-right: 60px
+    }
+    
+    @media screen and (max-width: 600px) {
+        .card-main {
+            padding: 50px 10px
+        }
+
+    header .card{
+        display: none;
+    }
+        .card-0 {
+            min-height: 432px
+        }
+    
+        .profile {
+            top: 24%
+        }
+    
+        .profile-pic {
+            width: 90px;
+            height: 90px
+        }
+    
+        .open-quotes {
+            margin-left: 100px
+        }
+    
+        .content {
+            margin-left: 120px;
+            margin-right: 50px
+        }
+    
+        .close-quotes {
+            margin-right: 30px
+        }
+    }
+    .contact_us{
+        margin-top: 100px;
+    }
+    .contact_us label{
+        background-color: #0fbf6131;
+        color: #0FBF61;  
+        padding: 5px 10px; 
+        margin-bottom: 15px;
+
+    }
+    form{
+        margin-top: 50px;
+    }
+    .contact_us input{
+        margin: 20px 0;
+    }
+    .send{
+        background-color: #0FBF61;
+        border: none;
+        padding: 10px 20px ;
+        color: white;
+        margin-top: 30px;
+    }
+   footer{
+       margin-top: 150px;
+       background-color: #0fbf6150;
+       padding: 40px;
+   }
+   footer h4{
+       color: #0FBF61;
+   }
